@@ -9,3 +9,4 @@ class Television:
     def __init__(self) -> None:
         pass
 # Create attributes 
+# Create methods
