@@ -26,6 +26,13 @@ def get_channel(self):
     return self.channel
 
 # set_channel
+def set_channel(self):
+    try:
+        if channel_no<1 or channel_no>120:
+            raise ValueError
+            
+        self.channel=int(channel_no)
+    
 # get_volume
 # set_volume
 # channel_up
