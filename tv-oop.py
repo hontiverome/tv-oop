@@ -27,7 +27,7 @@ def get_channel(self):
     return self.channel
 
 # set_channel (channels are only within 1 and 120 only)
-def set_channel(self):
+def set_channel(self, channel_no):
     try:
         if channel_no<1 or channel_no>120:
             raise ValueError("Channels are between 1 and 120 only.")
@@ -40,7 +40,7 @@ def get_volume(self):
     return self.volume_level
 
 # set_volume (volume levels are between 1 and 7 only)
-def set_volume(self):
+def set_volume(self, volume):
     try:
         if volume<1 or volume>7:
             raise ValueError("Volume levels are between 1 and 7 only.")
