@@ -25,7 +25,7 @@ def turn_off(self):
 def get_channel(self):
     return self.channel
 
-# set_channel
+# set_channel (channels are only within 1 and 120 only)
 def set_channel(self):
     try:
         if channel_no<1 or channel_no>120:
@@ -38,7 +38,8 @@ def set_channel(self):
 def get_volume(self):
     return self.volume_level
 
-# set_volume
+# set_volume (volume levels are between 1 and 7 only)
+
 # channel_up
 # channel_down
 # volume_up
