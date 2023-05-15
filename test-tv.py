@@ -15,5 +15,21 @@ if television1.on:
     print(f"tv1's channel is {television1.get_channel()} and volume level is {television1.get_volume()}")
 else:
     print("Please turn television 1 on.")
+    
+# television 2
+# initializes class
+television2=TV(1,1)
+# turns tv 1 on
+television2.turn_on()
+# sets channel for television1 to 3
+television2.set_channel(3)
+# sets volume level for television1 to 2
+television2.set_volume(2)
+# prints output, also checks if tv is on.
+if television2.on:
+    print(f"tv2's channel is {television2.get_channel()} and volume level is {television2.get_volume()}")
+else:
+    print("Please turn television 1 on.")
+
 
 
