@@ -17,7 +17,10 @@ class Television:
 def turn_on(self):
     self.on=True
     
-# turn_iff
+# turn_off
+def turn_off(self):
+    self.on=False
+    
 # get_channel
 # set_channel
 # get_volume
