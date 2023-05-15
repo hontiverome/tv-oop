@@ -35,6 +35,9 @@ def set_channel(self):
         raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
     
 # get_volume
+def get_volume(self):
+    return self.volume_level
+
 # set_volume
 # channel_up
 # channel_down
