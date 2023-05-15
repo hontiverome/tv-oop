@@ -5,4 +5,7 @@
 # tv2's channel is 3 and volume level is 2
 
 # Create class television
+class Television:
+    def __init__(self) -> None:
+        pass
 # Create attributes 
