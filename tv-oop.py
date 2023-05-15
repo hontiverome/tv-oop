@@ -14,6 +14,9 @@ class Television:
 
 # Create methods:
 # turn_on
+def turn_on(self):
+    self.on=True
+    
 # turn_iff
 # get_channel
 # set_channel
