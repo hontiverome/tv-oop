@@ -54,7 +54,7 @@ def channel_up(self):
         if self.channel<120:
             self.channel+=1
         else:
-            self.
+            raise ValueError("Volume levels are between 1 and 7 only.")
     except:
         raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
 # channel_down
