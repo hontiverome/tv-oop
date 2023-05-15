@@ -12,4 +12,14 @@ class Television:
         self.volume_level:1
         self.on:False
 
-# Create methods
+# Create methods:
+# turn_on
+# turn_iff
+# get_channel
+# set_channel
+# get_volume
+# set_volume
+# channel_up
+# channel_down
+# volume_up
+# volume_down
