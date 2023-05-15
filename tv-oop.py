@@ -7,6 +7,9 @@
 # Create class television
 class Television:
     def __init__(self) -> None:
-        pass
-# Create attributes 
+        # Create attributes 
+        self.channel:1
+        self.volume_level:1
+        self.on:False
+
 # Create methods
