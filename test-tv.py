@@ -6,10 +6,11 @@ from television import TV
 television1=TV(1,1)
 # turns tv 1 on
 television1.turn_on()
-# 
+# sets channel for television1 to 30
 television1.set_channel(30)
+# sets volume level for television1 to 7
 television1.set_volume(3)
-
+# prints output, also checks if tv is on.
 if television1.on:
     print(f"tv1's channel is {television1.get_channel()} and volume level is {television1.get_volume()}")
 else:
