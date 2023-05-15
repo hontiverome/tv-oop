@@ -39,7 +39,14 @@ def get_volume(self):
     return self.volume_level
 
 # set_volume (volume levels are between 1 and 7 only)
-
+def set_volume(self):
+    try:
+        if volume<1 or volume>7:
+            raise ValueError("Volume levels are between 1 and 7 only.")
+        self.volume_level=volume
+    except:
+        raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
+    
 # channel_up
 # channel_down
 # volume_up
