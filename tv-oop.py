@@ -29,9 +29,10 @@ def get_channel(self):
 def set_channel(self):
     try:
         if channel_no<1 or channel_no>120:
-            raise ValueError
-            
+            raise ValueError("Channels are between 1 and 120 only.")
         self.channel=int(channel_no)
+    except:
+        raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
     
 # get_volume
 # set_volume
