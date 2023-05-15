@@ -22,6 +22,9 @@ def turn_off(self):
     self.on=False
     
 # get_channel
+def get_channel(self):
+    return self.channel
+
 # set_channel
 # get_volume
 # set_volume
