@@ -13,6 +13,7 @@ class Television:
         self.on=False
 
 # Create methods:
+
 # turn_on
 def turn_on(self):
     self.on=True
@@ -48,6 +49,14 @@ def set_volume(self):
         raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
     
 # channel_up
+def channel_up(self):
+    try:
+        if self.channel<120:
+            self.channel+=1
+        else:
+            self.
+    except:
+        raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
 # channel_down
 # volume_up
 # volume_down
