@@ -17,10 +17,12 @@ class TV:
     # turn_on
     def turn_on(self):
         self.on=True
+        return True
         
     # turn_off
     def turn_off(self):
         self.on=False
+        return False
         
     # get_channel
     def get_channel(self):
