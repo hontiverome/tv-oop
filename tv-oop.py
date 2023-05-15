@@ -6,7 +6,7 @@
 
 # Create class television
 class Television:
-    def __init__(self) -> None:
+    def __init__(self, channel_no, volume) -> None:
         # Create attributes 
         self.channel=channel_no
         self.volume_level=volume
@@ -79,3 +79,11 @@ def volume_up(self):
         raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
     
 # volume_down
+def volume_up(self):
+    try:
+        if self.volume_level>1:
+            self.volume_level-=1
+        else:
+            raise ValueError("Volume levels are between 1 and 7 only.")
+    except:
+        raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
