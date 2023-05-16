@@ -41,7 +41,7 @@ def Television3():
     television3=TV(1,1)
     # iterated switch on/off
     while True:
-        power=str(input("\nTurn TV on? (y/n only)"))
+        power=str(input("\nTurn TV on? (y/n only)\n: "))
         if power=='y':
             television3.turn_on()
             print("You turned the TV on.")
@@ -57,13 +57,13 @@ def Television3():
         if option==1:
             print("You chose option 1.")
             time.sleep(1)
-            channel_no=int(input("Set the channel to? (1-120 only.)"))
+            channel_no=int(input("Set the channel to? (1-120 only.)\n: "))
             television3.set_channel(channel_no)
             time.sleep(1)
         elif option==2:
             print("You chose option 2.")
             time.sleep(1)
-            volume_level=int(input("Set the volume to? (1-7 only.)"))
+            volume_level=int(input("Set the volume to? (1-7 only.)\n: "))
             television3.set_volume(volume_level)    
             time.sleep(1)
         elif option==3:
@@ -71,6 +71,11 @@ def Television3():
             time.sleep(1)
             television3.channel_up()
             time.sleep(1)
+        elif option==4:
+            print("You chose option 4.")
+            time.sleep(1)
+            television3.channel_down()
+            time.sleep(1)    
 
 def Custom():
     while True:
