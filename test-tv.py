@@ -4,6 +4,7 @@ from television import TV
 # television 1
 # initializes class
 def Television1():
+    # makes use of class
     television1=TV(1,1)
     # turns tv 1 on
     television1.turn_on()
@@ -20,6 +21,7 @@ def Television1():
 # television 2
 # initializes class
 def Television2():
+    # makes use of class
     television2=TV(1,1)
     # turns tv 1 on
     television2.turn_on()
@@ -34,6 +36,8 @@ def Television2():
         print("Please turn television 1 on.")
 
 def Television3():
+    # makes use of class
+    television3=TV(1,1)
 
 def custom():
     while True:
