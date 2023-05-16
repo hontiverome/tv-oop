@@ -58,10 +58,9 @@ class TV:
             if self.channel < 120:
                 self.channel += 1
             else:
-                raise ValueError("Channels are between 1 and 120 only.")
+                print("Channels are between 1 and 120 only.")
         except:
-            raise ValueError(
-                "Integers only.\nChannels are between 1 and 120 only.")
+            raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
 
     # channel_down
     def channel_down(self):
@@ -69,10 +68,9 @@ class TV:
             if self.channel > 1:
                 self.channel -= 1
             else:
-                raise ValueError("Chanells  are between 1 and 120 only.")
+                print("Channels are between 1 and 120 only.")
         except:
-            raise ValueError(
-                "Integers only.\nChannels are between 1 and 120 only.")
+            raise ValueError("Integers only.\nChannels are between 1 and 120 only.")
 
     # volume_up
     def volume_up(self):
@@ -80,10 +78,9 @@ class TV:
             if self.volume_level < 7:
                 self.volume_level += 1
             else:
-                raise ValueError("Volume levels are between 1 and 7 only.")
+                print ("Volume levels are between 1 and 7 only.")
         except:
-            raise ValueError(
-                "Integers only.\nVolume levels are between 1 and 7 only.")
+            raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
 
     # volume_down
     def volume_up(self):
@@ -91,10 +88,9 @@ class TV:
             if self.volume_level > 1:
                 self.volume_level -= 1
             else:
-                raise ValueError("Volume levels are between 1 and 7 only.")
+                print("Volume levels are between 1 and 7 only.")
         except:
-            raise ValueError(
-                "Integers only.\nVolume levels are between 1 and 7 only.")
+            raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
             
 
 # HONTIVEROS, JEROME ANDREI O.
