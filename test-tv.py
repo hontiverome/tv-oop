@@ -38,11 +38,19 @@ def Television2():
 def Television3():
     # makes use of class
     television3=TV(1,1)
+    # switch on/off
+    power=str(input("Turn TV on? (y/n only)"))
 
 def custom():
     while True:
-        custom=str(input("\n\nWould you like to try setting up a TV yourself? (y/n only)"))
-        if custom=='y':
+        custom=str(input("\n\nWould you like to try setting up TV3 yourself? (y/n only)"))
+        if custom.lower=='y':
+            Television3()
+        if custom.lower=='n':
+            print("Thank you!")
+            exit()
+        else:
+            print("Invalid.")
             
             
 
