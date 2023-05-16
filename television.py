@@ -57,6 +57,7 @@ class TV:
         try:
             if self.channel < 120:
                 self.channel += 1
+                print("Channel has been increased by 1")
             else:
                 print("Channels are between 1 and 120 only.")
         except:
@@ -67,6 +68,7 @@ class TV:
         try:
             if self.channel > 1:
                 self.channel -= 1
+                print("Channel has been decreased by 1")  
             else:
                 print("Channels are between 1 and 120 only.")
         except:
@@ -77,6 +79,7 @@ class TV:
         try:
             if self.volume_level < 7:
                 self.volume_level += 1
+                print("Volume level has been increased by 1")  
             else:
                 print ("Volume levels are between 1 and 7 only.")
         except:
@@ -87,6 +90,7 @@ class TV:
         try:
             if self.volume_level > 1:
                 self.volume_level -= 1
+                print("Volume level has been decreased by 1")  
             else:
                 print("Volume levels are between 1 and 7 only.")
         except:
