@@ -53,7 +53,7 @@ def Television3():
             break
         else:
             print("Invalid.")
-    # iteration for channel and volume
+    # iteration for channel, volume. power, and output
     while True:
         option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Turn TV on\n8: Turn TV off\n9: Print Output\n:  "))
         if option==1:
@@ -137,6 +137,7 @@ def Television3():
                 print("Sorry! You didn't turn the TV on.")
                 exit()
 
+# iteration whether to ask if the user wants to make their own television status
 def Custom():
     while True:
         custom=str(input("\nWould you like to try setting up a Television (TV3) yourself? (y/n only)\n: "))
@@ -149,7 +150,7 @@ def Custom():
             print("Invalid.")
             
             
-
+# code execution
 Television1()
 Television2()
 Custom()
