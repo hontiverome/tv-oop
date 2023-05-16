@@ -73,5 +73,6 @@ def custom():
 
 Television1()
 Television2()
+Custom()
 
 
