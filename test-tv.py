@@ -34,6 +34,8 @@ def Television2():
         print("Please turn television 1 on.")
 
 def Television3():
+
+def custom():
     while True:
         custom=str(input("\n\nWould you like to try setting up a TV yourself? (y/n only)"))
         if custom=='y':
