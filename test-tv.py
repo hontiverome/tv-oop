@@ -81,6 +81,24 @@ def Television3():
             time.sleep(1)
             television3.volume_up()
             time.sleep(1)    
+        elif option==6:
+            print("You chose option 5.")
+            time.sleep(1)
+            television3.volume_down()
+            time.sleep(1)    
+        elif option==7:
+            print("Heres your custom TV!")
+            if television3.on:
+                time.sleep(1)
+                print(f"TV3's channel is {television3.get_channel()}")
+                time.sleep(0.5)
+                print(f"TV3's volume level is {television3.get_volume()}")
+                time.sleep(0.5)
+                print("Thank you for using the code!")
+                exit()
+            else:
+                time.sleep(1)
+                print("Sorry! Your TV is not on.")
 
 def Custom():
     while True:
