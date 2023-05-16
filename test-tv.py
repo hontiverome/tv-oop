@@ -132,7 +132,8 @@ def Television3():
                 exit()
             else:
                 time.sleep(1)
-                print("Sorry! Your TV is not on.")
+                print("Sorry! You didn't turn the TV on.")
+                exit()
 
 def Custom():
     while True:
