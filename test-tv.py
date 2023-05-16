@@ -44,8 +44,10 @@ def Television3():
         power=str(input("\nTurn TV on? (y/n only)"))
         if power=='y':
             television3.turn_on()
+            print("You turned the TV on.")
             break
         elif power=='n':
+            print("You did not turn the TV on.")
             break
         else:
             print("Invalid.")
@@ -67,7 +69,6 @@ def Television3():
         elif option==3:
             print("You chose option 3.")
             time.sleep(1)
-            print("Channel has been increased by 1")
             television3.channel_up()
             time.sleep(1)
 
