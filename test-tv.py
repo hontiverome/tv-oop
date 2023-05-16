@@ -45,9 +45,11 @@ def Television3():
         if power=='y':
             television3.turn_on()
             print("You turned the TV on.")
+            time.sleep(1.5)
             break
         elif power=='n':
             print("You did not turn the TV on.")
+            time.sleep(1.5)
             break
         else:
             print("Invalid.")
