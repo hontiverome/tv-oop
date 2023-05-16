@@ -58,7 +58,7 @@ def Television3():
             
 
 
-def custom():
+def Custom():
     while True:
         custom=str(input("\n\nWould you like to try setting up TV3 yourself? (y/n only)"))
         if custom.lower=='y':
