@@ -92,7 +92,7 @@ def Television3():
             print(f"Volume level is now {television3.get_volume()}")
             time.sleep(1)    
         elif option==6:
-            print("You chose option 5.")
+            print("You chose option 6.")
             time.sleep(1)
             television3.volume_down()
             time.sleep(0.5)
