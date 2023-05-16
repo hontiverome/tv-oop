@@ -30,7 +30,7 @@ class TV:
     def set_channel(self, channel_no):
         try:
             if channel_no < 1 or channel_no > 120:
-                raise ValueError("Channels are between 1 and 120 only.")
+                print ("Channels are between 1 and 120 only.")
             else:
                 self.channel = int(channel_no)
         except:
@@ -45,7 +45,7 @@ class TV:
     def set_volume(self, volume):
         try:
             if volume < 1 or volume > 7:
-                raise ValueError("Volume levels are between 1 and 7 only.")
+                print ("Volume levels are between 1 and 7 only.")
             else:
                 self.volume_level = volume
         except:
