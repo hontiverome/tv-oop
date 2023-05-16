@@ -15,7 +15,7 @@ def Television1():
     television1.set_volume(3)
     # prints output, also checks if tv is on.
     if television1.on:
-        print(f"tv1's channel is {television1.get_channel()} and volume level is {television1.get_volume()}")
+        print(f"\ntv1's channel is {television1.get_channel()} and volume level is {television1.get_volume()}\n")
     else:
         print("Please turn television 1 on.")
     
@@ -32,7 +32,7 @@ def Television2():
     television2.set_volume(2)
     # prints output, also checks if tv is on.
     if television2.on:
-        print(f"tv2's channel is {television2.get_channel()} and volume level is {television2.get_volume()}")
+        print(f"\ntv2's channel is {television2.get_channel()} and volume level is {television2.get_volume()}\n")
     else:
         print("Please turn television 1 on.")
 
@@ -103,13 +103,15 @@ def Television3():
             else:
                 print("TV is already off.")
         elif option==9:
-            print("Heres your custom TV!")
+            print("You chose option 9.")
+            time.sleep(1)   
+            print("\nHeres your custom TV!")
             if television3.on:
                 time.sleep(1)
                 print(f"TV3's channel is {television3.get_channel()}")
-                time.sleep(0.5)
+                time.sleep(1)
                 print(f"TV3's volume level is {television3.get_volume()}")
-                time.sleep(0.5)
+                time.sleep(1)
                 print("Thank you for using the code!")
                 exit()
             else:
