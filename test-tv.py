@@ -64,7 +64,12 @@ def Television3():
             volume_level=int(input("Set the volume to? (1-7 only.)"))
             television3.set_volume(volume_level)    
             time.sleep(1)
-            
+        elif option==3:
+            print("You chose option 3.")
+            time.sleep(1)
+            print("Channel has been increased by 1")
+            television3.channel_up()
+            time.sleep(1)
 
 def Custom():
     while True:
