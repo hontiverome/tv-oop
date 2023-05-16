@@ -88,7 +88,7 @@ class TV:
             raise ValueError("Integers only.\nVolume levels are between 1 and 7 only.")
 
     # volume_down
-    def volume_up(self):
+    def volume_down(self):
         try:
             if self.volume_level > 1:
                 self.volume_level -= 1
