@@ -38,7 +38,7 @@ def Television2():
 def Television3():
     # makes use of class
     television3=TV(1,1)
-    # switch on/off
+    # iterated switch on/off
     while True:
         power=str(input("\nTurn TV on? (y/n only)"))
         if power.lower=='y':
@@ -48,6 +48,13 @@ def Television3():
             break
         else:
             print("Invalid.")
+    # iteration for channel and volume
+    while True:
+        option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Print the output."))
+        if option==1:
+            channel_no=int(input("Set the channel to? (1-120 only.)"))
+            television3.set_channel(channel_no)
+        
             
 
 
