@@ -103,17 +103,21 @@ def Television3():
             time.sleep(1)
             if television3.on:
                 print("TV is already on.")
+                time.sleep(1.5)
             else:
                 television3.turn_on()
                 print("You turned the TV on.")
+                time.sleep(1.5)
         elif option==8:
             print("You chose option 8.")
             time.sleep(1)
             if television3.on:
                 television3.turn_off()
                 print("You turned the TV off.")
+                time.sleep(1.5)
             else:
                 print("TV is already off.")
+                time.sleep(1.5)
         elif option==9:
             print("You chose option 9.")
             time.sleep(1)   
