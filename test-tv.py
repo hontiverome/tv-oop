@@ -58,10 +58,13 @@ def Television3():
             channel_no=int(input("Set the channel to? (1-120 only.)"))
             television3.set_channel(channel_no)
             time.sleep(1)
+        elif option==2:
+            print("You chose option 2.")
+            time.sleep(1)
+            volume_level=int(input("Set the volume to? (1-7 only.)"))
+            television3.set_volume(volume_level)    
+            time.sleep(1)
             
-        
-            
-
 
 def Custom():
     while True:
