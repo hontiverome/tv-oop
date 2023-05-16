@@ -76,6 +76,11 @@ def Television3():
             time.sleep(1)
             television3.channel_down()
             time.sleep(1)    
+        elif option==5:
+            print("You chose option 5.")
+            time.sleep(1)
+            television3.volume_up()
+            time.sleep(1)    
 
 def Custom():
     while True:
