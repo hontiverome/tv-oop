@@ -143,7 +143,7 @@ def Custom():
         if custom=='y':
             Television3()
         elif custom=='n':
-            print("Thank you!")
+            print("Thank yo for using the codeu!")
             exit()
         else:
             print("Invalid.")
@@ -154,4 +154,5 @@ Television1()
 Television2()
 Custom()
 
-
+# HONTIVEROS JEROME ANDREI O.
+# BSCPE 1-5
