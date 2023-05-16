@@ -31,7 +31,8 @@ class TV:
         try:
             if channel_no < 1 or channel_no > 120:
                 raise ValueError("Channels are between 1 and 120 only.")
-            self.channel = int(channel_no)
+            else:
+                self.channel = int(channel_no)
         except:
             raise ValueError(
                 "Integers only.\nChannels are between 1 and 120 only.")
@@ -45,7 +46,8 @@ class TV:
         try:
             if volume < 1 or volume > 7:
                 raise ValueError("Volume levels are between 1 and 7 only.")
-            self.volume_level = volume
+            else:
+                self.volume_level = volume
         except:
             raise ValueError(
                 "Integers only.\nVolume levels are between 1 and 7 only.")
