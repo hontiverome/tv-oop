@@ -87,6 +87,22 @@ def Television3():
             television3.volume_down()
             time.sleep(1)    
         elif option==7:
+            print("You chose option 7.")
+            time.sleep(1)
+            if television3.on:
+                print("TV is already on.")
+            else:
+                television3.turn_on()
+                print("You turned the TV on.")
+        elif option==8:
+            print("You chose option 8.")
+            time.sleep(1)
+            if television3.on:
+                television3.turn_off()
+                print("You turned the TV off.")
+            else:
+                print("TV is already off.")
+        elif option==9:
             print("Heres your custom TV!")
             if television3.on:
                 time.sleep(1)
