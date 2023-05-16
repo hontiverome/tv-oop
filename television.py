@@ -33,6 +33,7 @@ class TV:
                 print ("Channels are between 1 and 120 only.")
             else:
                 self.channel = int(channel_no)
+                print(f"Channel has been set to {channel_no}")
         except:
             raise ValueError(
                 "Integers only.\nChannels are between 1 and 120 only.")
@@ -47,7 +48,8 @@ class TV:
             if volume < 1 or volume > 7:
                 print ("Volume levels are between 1 and 7 only.")
             else:
-                self.volume_level = volume
+                self.volume_level = int(volume)
+                print(f"Volume level has been set to {volume}")
         except:
             raise ValueError(
                 "Integers only.\nVolume levels are between 1 and 7 only.")
