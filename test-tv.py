@@ -53,7 +53,7 @@ def Television3():
             print("Invalid.")
     # iteration for channel and volume
     while True:
-        option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Print the output.\n: "))
+        option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Turn TV on\n8: Turn TV off\n9: Print Output\n:  "))
         if option==1:
             print("You chose option 1.")
             time.sleep(1)
