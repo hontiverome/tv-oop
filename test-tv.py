@@ -1,4 +1,5 @@
 from television import TV
+import time
 
 # print the outputs: tv1's channel is 30 and volume level is 3, tv2's channel is 3 and volume level is 2
 # television 1
@@ -50,10 +51,14 @@ def Television3():
             print("Invalid.")
     # iteration for channel and volume
     while True:
-        option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Print the output."))
+        option=int(input("\nWhat would you like to do?\n1: Set the Channel\n2: Set the Volume\n3: Channel Up\n4: Channel down\n5: Volume up\n6: Volume down\n7: Print the output.\n: "))
         if option==1:
+            print("You chose option 1.")
+            time.sleep(1)
             channel_no=int(input("Set the channel to? (1-120 only.)"))
             television3.set_channel(channel_no)
+            time.sleep(1)
+            
         
             
 
