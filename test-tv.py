@@ -60,10 +60,10 @@ def Television3():
 
 def Custom():
     while True:
-        custom=str(input("\n\nWould you like to try setting up TV3 yourself? (y/n only)"))
-        if custom.lower=='y':
+        custom=str(input("\nWould you like to try setting up TV3 yourself? (y/n only)\n: "))
+        if custom=='y':
             Television3()
-        elif custom.lower=='n':
+        elif custom=='n':
             print("Thank you!")
             exit()
         else:
